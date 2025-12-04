@@ -48,7 +48,7 @@ a:hover {
 #links ul {
   list-style: none;
   padding: 0;
-  margin-top: 20;
+  margin-top: 20px;
 }
 
 #links ul li {
@@ -75,6 +75,10 @@ footer {
   margin-top: 30px;
   font-size: 0.9rem;
   color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 footer p {
   margin: 0;
